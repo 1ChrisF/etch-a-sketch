@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    margin: 0;
+} 
+/* div{
+    border: 1px white solid;
+} */
+.container{
+    background-color: rgb(255, 0, 221);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.box1 {
+   
+    flex: 0 1 80px;
+    background-color: red;
+}
+ .box2{    
+    flex: 1 1 auto;    
+    background-color: blue;
+}
+.sketchWrapper{
+    display: flex;
+    justify-content: space-between;    
+    background-color: fuchsia;
+    
+    margin: auto;
+    width: auto;
+    height: 100%;
+    width: max-content;
+}
+
+.side{    
+    background-color: orange;
+    height: 100%;
+    width: 100px;
+}
+
+.top{    
+    background-color: greenyellow;
+    height: 80px;
+    width: 675px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: max-content;
+    
+}
+
+ .screen{
+   background-color: rgb(161, 161, 161);
+    width: 675px;
+    height: 675px;
+} 
+.gridWrapper{    
+    width: 675px;
+    height: 675px;
+ 
+    
+    background-color: rgb(240, 240, 240);
+}
+
+ .box3{
+    flex: 0 1 80px;    
+    background-color: chartreuse;
+}
+
+.square{ 
+    background:LightSkyBlue; 
+
+}
+  
+.square:hover{
+    background-color: yellow;
+}
+#grid{
+    display: grid;
+    column-gap: 3px;
+    row-gap: 3px;
+    width: 675px;
+    height: 675px;
+  
+}
+button{
+    width: 100px;
+    height:40px;
+}
