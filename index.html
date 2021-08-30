@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="etch-a-sketch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <script src='etch-a-sketch.js' defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head"></div>
+        <div class="content">
+            <div class="sketchContainer">
+                <div class="side" id="left"><img src="images/sideL.jpg" alt=""><button id="clear" class="btnL" type="button">Shake!</button></div>
+                <div class="middle">
+                    <div class="end" id="top"><img src="images/top.jpg" alt=""></div>
+                    <div class="screenBack">
+
+                        <div id="grid"></div>
+
+                    </div>
+                    <div class="end" id="bottom"><img src="images/bottom.jpg" alt=""><input type="range" min="2" max="64" value="24" class="slider"
+                            id="gridSize">Change size!</div>
+                </div>
+                <div class="side" id="right"><img src="images/sideR.jpg" alt=""><button id="color" class="btnR" type="button">Color!</button></div>
+            </div>
+        </div>
+        <div class="foot"></div>
+    </div>
+
+
+</body>
+
+</html>
